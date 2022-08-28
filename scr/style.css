@@ -16,11 +16,39 @@ h2 {
   margin-top: 80px;
   font-size: 60px;
 }
+h5 {
+  text-align: center;
+}
+
+.button {
+  font-size: 20px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 15px;
+  border: 0.1px solid;
+  margin-top: 40px;
+}
+.link:hover {
+  text-decoration: none;
+}
 i {
   font-size: 30px;
   margin-left: 20px;
   margin-right: 20px;
   color: black;
+}
+.col-sm-6 {
+  text-align: center;
+  padding: 30px;
+}
+img {
+  border-radius: 15px;
+  margin: 25px;
+}
+@media (max-width: 576px) {
+  img {
+    width: 300px;
+  }
 }
 a {
   display: block;
