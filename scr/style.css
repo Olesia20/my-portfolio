@@ -60,6 +60,10 @@ img {
   }
   body {
     max-width: 576px;
+    text-align: center;
+  }
+  .img-fluid {
+    width: 200px;
   }
 }
 a {
